@@ -1,15 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     text-decoration: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background: url(src/imagens/Wallpaper-Ligth.jpg);
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-navbar{
-    display: flexbox;
-    color: black;
+/* Cabeçalho - Início */
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
 
 }
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .logo-portfolio a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .logo-portfolio span{
+    color: #bc3e97;
+    transition: color 0.3s ease;
+}
+
+.navbar .redes li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .redes li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .redes li a:hover{
+
+        color: #875379;
+}
+/* Home - Início */
+
+.home{
+    display: flex;
+    background: url(src/imagens/Wallpaper-Dark2.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+     margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: #bc3e97;
+    font-weight: 500;
+}
+
