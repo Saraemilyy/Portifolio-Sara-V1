@@ -17,7 +17,7 @@
     position: fixed;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
-    padding: 30px 0;
+    padding: 30px 10px;
     transition: all 0.3s ease;
 
 }
@@ -26,6 +26,7 @@
     padding: 15px 0;
     background: #3e2437;
 }
+
 
 .navbar .max-width {
     display: flex;
@@ -62,13 +63,11 @@
 }
 
 .navbar .redes li a:hover{
-
-        color: #875379;
+    color: #875379;
 }
 
 .navbar.sticky .redes li a:hover{
-
-    color: #fff;
+    color: #7b7a7a;
 }
 /* Home - Início */
 
@@ -99,10 +98,28 @@
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .home .home-content .text-3 span{
     color: #bc3e97;
-    font-weight: 500;
 }
 
+.home .home-content a{
+    display: inline-block;
+    background: #bc3e97;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #bc3e97;
+    transition: 0.3s;
+}
+
+.home .home-content a:hover{
+    background: none;
+    color: #fff;
+}
